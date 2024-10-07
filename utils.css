@@ -1,0 +1,96 @@
+:root {
+  --white: #fff;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --danger: #dc3545;
+  --info: #17a2b8;
+  --dark: #343a40;
+  --light: #f8f9fa;
+  --warning: #ffc107;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-success {
+  color: var(--success);
+}
+.text-danger {
+  color: var(--danger);
+}
+.text-info {
+  color: var(--info);
+}
+.text-dark {
+  color: var(--dark);
+}
+.text-light {
+  color: var(--light);
+}
+.tex-warning {
+  color: var(--warning);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-warning {
+  background-color: var(--warning);
+}
+.bg-light {
+  background-color: var(--light);
+}
+
+/* butonlar*/
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: #f8f9fa;
+}
+.btn:hover {
+  opacity: 0.9;
+  transition: 1s;
+  background-color: var(--info);
+  color: #fff;
+}
+.icons {
+  padding: 30px;
+}
+.icons h3 {
+  font-weight: 400px;
+  margin-bottom: 15px;
+}
+.icons i {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+.btn-outline-primary {
+  background-color: #fff;
+  color: #007bff;
+}
+.btn-outline-primary:hover {
+  opacity: 0.9;
+  transition: 1s;
+  background-color: var(--warning);
+  color: #fff;
+}
+
+.gallery img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
